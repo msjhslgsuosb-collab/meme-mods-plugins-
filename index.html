@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#100d19">
+<title>MEME IQ — Minecraft Projects</title>
+<style>
+:root{--bg:#0e0b15;--panel:#171321;--panel2:#201a2d;--line:#30283e;--text:#f7f3ff;--muted:#aaa0bb;--purple:#a78bfa;--purple2:#7c3aed;--green:#75d6a1}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% -20%,#38205a 0,transparent 42%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 22px}
+header{height:76px;border-bottom:1px solid #ffffff12;background:#100d19d9;backdrop-filter:blur(14px);position:sticky;top:0;z-index:5}
+.nav{height:100%;display:flex;align-items:center;gap:28px}.brand{font-size:22px;font-weight:900;letter-spacing:.3px;color:#c4a8ff}.brand span{color:white}.navlinks{display:flex;gap:20px;color:var(--muted);font-size:14px}.navlinks a:hover{color:white}.spacer{flex:1}.pill{border:1px solid var(--line);padding:9px 14px;border-radius:11px;color:#ddd3ee;font-size:13px}
+.hero{padding:76px 0 46px;text-align:center}.eyebrow{color:#c4a8ff;font-size:13px;font-weight:700;letter-spacing:1px}.hero h1{font-size:clamp(36px,6vw,66px);line-height:1.12;margin:15px 0 12px}.hero h1 b{color:var(--purple)}.hero p{color:var(--muted);max-width:610px;margin:0 auto 28px;line-height:1.9}
+.searchbox{max-width:720px;margin:auto;display:flex;gap:8px;background:#1a1525;border:1px solid #514166;padding:8px;border-radius:16px;box-shadow:0 18px 60px #0006}.searchbox input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:white;padding:9px 12px;font-size:15px}.searchbox button,.primary{border:0;background:linear-gradient(135deg,#a78bfa,#7c3aed);color:white;font-weight:800;border-radius:11px;padding:12px 22px;cursor:pointer}.quick{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:17px}.quick button{background:#ffffff08;border:1px solid var(--line);color:#c9bfd8;padding:7px 12px;border-radius:30px;cursor:pointer}
+main{padding:16px 0 70px}.sectionhead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:22px 0 16px}.sectionhead h2{font-size:21px;margin:0}.muted{color:var(--muted);font-size:13px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.filters button{background:var(--panel);border:1px solid var(--line);color:#cfc5dc;padding:9px 13px;border-radius:10px;cursor:pointer}.filters button.active{background:#33244b;border-color:#9c75e8;color:white}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:linear-gradient(160deg,#1b1626,#15111e);border:1px solid var(--line);border-radius:16px;padding:16px;min-height:180px;display:flex;flex-direction:column;gap:10px;transition:.2s}.card:hover{transform:translateY(-3px);border-color:#72569c}.cardtop{display:flex;align-items:center;gap:12px}.iconbox{width:48px;height:48px;border-radius:12px;background:#302443;display:grid;place-items:center;font-size:24px;overflow:hidden;flex-shrink:0}.iconbox img{width:100%;height:100%;object-fit:cover}.card h3{margin:0;font-size:16px}.desc{color:var(--muted);font-size:13px;line-height:1.6;min-height:40px}.meta{display:flex;gap:12px;color:#b7abc8;font-size:12px;margin-top:auto}.tag{color:#c7aaff;background:#35264c;padding:4px 8px;border-radius:7px;font-size:11px;width:max-content}.download{display:inline-flex;align-items:center;justify-content:center;background:#34234e;color:#e8dcff;border:1px solid #614785;border-radius:9px;padding:9px 12px;font-size:12px;font-weight:700;margin-top:3px}
+.empty{grid-column:1/-1;text-align:center;padding:42px 15px;border:1px dashed var(--line);border-radius:16px;color:var(--muted)}.status{color:var(--muted);font-size:13px;margin:12px 0}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:12px;line-height:1.8}.notice{background:#171321;border:1px solid #44345d;padding:14px 16px;border-radius:12px;color:#c8bdd8;font-size:13px;line-height:1.7;margin-top:26px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{display:none}}
+@media(max-width:560px){.wrap{padding:0 15px}.hero{padding:55px 0 32px}.grid{grid-template-columns:1fr}.searchbox{flex-wrap:wrap}.searchbox input{flex-basis:100%}.searchbox button{width:100%}.nav{gap:12px}.pill{padding:8px 10px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#">MEME <span>IQ</span></a>
+  <nav class="navlinks"><a href="#browse">استكشف</a><a href="#browse" data-type="mod">المودات</a><a href="#browse" data-type="plugin">إضافات السيرفر</a><a href="#about">عن المنصة</a></nav>
+  <div class="spacer"></div><span class="pill">Minecraft Hub</span>
+</div></header>
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">YOUR MINECRAFT COMMUNITY</div>
+  <h1>كل مشاريع ماينكرافت<br><b>بمكان واحد.</b></h1>
+  <p>اكتشف المودات، الإضافات، الشيدرز وحزم الموارد. ابحث بمكتبة Modrinth مباشرة من MEME IQ.</p>
+  <form class="searchbox" id="searchForm"><input id="query" placeholder="ابحث عن مود، إضافة، Shader..." autocomplete="off"><button>ابحث الآن</button></form>
+  <div class="quick"><button data-query="Sodium">Sodium</button><button data-query="Iris Shaders">Iris Shaders</button><button data-query="WorldEdit">WorldEdit</button><button data-query="Lithium">Lithium</button></div>
+</div></section>
+<main id="browse" class="wrap">
+  <div class="sectionhead"><div><h2>استكشف المشاريع</h2><div class="muted">نتائج مباشرة من Modrinth</div></div><span class="pill" id="count">جاهز للبحث</span></div>
+  <div class="filters" id="filters">
+    <button class="active" data-type="mod">مودات</button><button data-type="plugin">إضافات Paper</button><button data-type="resourcepack">Resource Packs</button><button data-type="shader">Shaders</button><button data-type="datapack">Data Packs</button><button data-type="modpack">Modpacks</button>
+  </div>
+  <div class="status" id="status">اكتب اسم المشروع أو اختر كلمة مقترحة للبدء.</div>
+  <div class="grid" id="results"><div class="empty">✨ مكتبة MEME IQ جاهزة. ابدأ بالبحث عن مشروع.</div></div>
+  <div class="notice" id="about"><b>ملاحظة:</b> هذه النسخة الأولية تبحث في Modrinth وتفتح صفحة المشروع الأصلية للتحميل. رفع ملفات المستخدمين، الحسابات، التقييمات ولوحة الإدارة تحتاج إلى خادم وقاعدة بيانات، ونضيفها بالمرحلة التالية. نحافظ على نسب المشاريع لأصحابها وشروط تراخيصها.</div>
+</main>
+<footer class="footer"><div class="wrap">MEME IQ © 2026 · منصة مجتمعية غير تابعة رسمياً لـ Modrinth أو Mojang.</div></footer>
+<script>
+const API='https://api.modrinth.com/v2/search';
+let type='mod',busy=false;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function setType(t){type=t;document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('active',b.dataset.type===t));}
+document.querySelectorAll('#filters button').forEach(b=>b.addEventListener('click',()=>{setType(b.dataset.type);if($('#query').value.trim())search();}));
+document.querySelectorAll('[data-query]').forEach(b=>b.addEventListener('click',()=>{$('#query').value=b.dataset.query;search();}));
+document.querySelectorAll('.navlinks [data-type]').forEach(a=>a.addEventListener('click',()=>setType(a.dataset.type)));
+$('#searchForm').addEventListener('submit',e=>{e.preventDefault();search();});
+async function search(){
+ const q=$('#query').value.trim();if(!q||busy)return;
+ busy=true;$('#status').textContent='جاري البحث في مكتبة Modrinth...';$('#results').innerHTML='';$('#count').textContent='...';
+ try{
+  const facets=encodeURIComponent(JSON.stringify([[`project_type:${type}`]]));
+  const url=`${API}?query=${encodeURIComponent(q)}&facets=${facets}&limit=18&index=relevance`;
+  const res=await fetch(url,{headers:{'User-Agent':'MEME-IQ/0.1 (community project)'}});
+  if(!res.ok)throw new Error('HTTP '+res.status);
+  const data=await res.json();const hits=data.hits||[];
+  $('#count').textContent=hits.length+' مشروع';
+  $('#status').textContent=hits.length?'تم العثور على مشاريع مطابقة.':'ما لقينا نتائج. جرّب كلمة ثانية أو نوع مشروع مختلف.';
+  $('#results').innerHTML=hits.length?hits.map(p=>{
+   const icon=p.icon_url?`<img src="${esc(p.icon_url)}" alt="">`:'🧩';
+   const downloads=Number(p.downloads||0).toLocaleString('en-US');
+   return `<article class="card"><div class="cardtop"><div class="iconbox">${icon}</div><div><h3>${esc(p.title)}</h3><div class="muted">${esc(p.author||'Community creator')}</div></div></div><span class="tag">${esc(type)}</span><div class="desc">${esc(p.description||'لا يوجد وصف لهذا المشروع.')}</div><div class="meta"><span>⬇ ${downloads}</span><span>♥ ${Number(p.follows||0).toLocaleString('en-US')}</span></div><a class="download" href="https://modrinth.com/${encodeURIComponent(type)}/${encodeURIComponent(p.slug)}" target="_blank" rel="noopener">عرض المشروع والتحميل ↗</a></article>`;
+  }).join(''):'<div class="empty">ماكو نتائج حالياً.</div>';
+ }catch(e){$('#status').textContent='تعذر الاتصال بمكتبة Modrinth. تأكد من الإنترنت وحاول مرة ثانية.';$('#results').innerHTML='<div class="empty">⚠️ لم نتمكن من تحميل النتائج الآن.</div>';$('#count').textContent='غير متصل';}
+ finally{busy=false;}
+}
+</script>
+</body></html>
